@@ -26,7 +26,6 @@ development:
   database: blog_app
   username: goruchie
   password: Gucci_43253
-  port: 5433
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
