@@ -159,9 +159,9 @@ To run tests, run the following command:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[Validations_and_Model_specs]**
 - [ ] **[Processing_data_in_model]**
 - [ ] **[Setup_and_controllers]**
+- [ ] **[Controllers_specs]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
