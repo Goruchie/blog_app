@@ -36,15 +36,11 @@
 
 # 📖 [blog_app] <a name="Blog app"></a>
 
-> Describe your project in 1 or 2 sentences.
-
 **[blog_app]** is an app in wich you will create a fully functional website that will show the list of posts and empower readers to interact with them by adding comments and liking posts.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
@@ -71,8 +67,6 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
 - **[Install_Ruby_on_Rails_framework]**
 - **[Use_Ruby_Gems_as_a_software_packages_system]**
 - **[Use_database_migration_files_to_maintain_database_schema]**
@@ -83,8 +77,6 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
 - [Live Demo coming soon...](https://yourdeployedapplicationlink.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -92,8 +84,6 @@
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -134,7 +124,7 @@ To run the project, execute the following command:
 To run tests, run the following command:
 
 ```sh
-  bin/rails test test/models/article_test.rb
+  rspec
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -143,9 +133,7 @@ To run tests, run the following command:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
-👤 **Author1**
+👤 **Marcos Gualtero Lourenzo**
 
 - GitHub: [@Goruchie](https://github.com/Goruchie)
 - Twitter: [@twitterhandle](https://twitter.com/goruchie2)
@@ -157,11 +145,9 @@ To run tests, run the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[Validations_and_Model_specs]**
 - [ ] **[Processing_data_in_model]**
 - [ ] **[Setup_and_controllers]**
+- [ ] **[Controllers_specs]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -171,7 +157,7 @@ To run tests, run the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Goruchie/blog-app/issues).
+Feel free to check the [issues page](https://github.com/Goruchie/blog_app/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -179,17 +165,13 @@ Feel free to check the [issues page](https://github.com/Goruchie/blog-app/issues
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project then don't forget to share this project in your connections and give a ⭐ star on this project 👍
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-> Give credit to everyone who inspired your codebase.
 
 I would like to thank @luccamicale for sharing me his knowledge.
 
@@ -200,7 +182,5 @@ I would like to thank @luccamicale for sharing me his knowledge.
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
