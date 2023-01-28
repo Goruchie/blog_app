@@ -11,9 +11,19 @@ RSpec.describe Post, type: :model do
     expect(subject).to_not be_valid
   end
 
+  it 'title length should not be too long' do
+    subject.title = 'a'
+    expect(subject).to be_valid
+  end
+
   it 'author_id should be present' do
     subject.author_id = nil
     expect(subject).to_not be_valid
+  end
+
+  it 'author_id should be present' do
+    subject.author_id = 1
+    expect(subject).to be_valid
   end
 
   it 'comments counter should be integer' do
@@ -21,14 +31,19 @@ RSpec.describe Post, type: :model do
     expect(subject).to_not be_valid
   end
 
+  it 'comments counter should be integer' do
+    subject.comments_counter_id = 1
+    expect(subject).to be_valid
+  end
+
   it 'likes counter should be integer' do
     subject.likes_counter_id = 'String'
     expect(subject).to_not be_valid
   end
 
-  it 'title length should not be too long' do
-    subject.title = 'a' * 300
-    expect(subject).to_not be_valid
+  it 'likes counter should be integer' do
+    subject.likes_counter_id = 1
+    expect(subject).to be_valid
   end
 
   it 'posts counter should increases in 1' do

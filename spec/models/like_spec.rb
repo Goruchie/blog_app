@@ -21,4 +21,9 @@ RSpec.describe Like, type: :model do
     post.likes_counter_id = nil
     expect(post).to_not be_valid
   end
+
+  it 'likes counter should increase in 1' do
+    update_like = subject.update_like_counter
+    expect(update_like.likes_counter_id).to eql 1
+  end
 end
