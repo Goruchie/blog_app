@@ -145,9 +145,9 @@ To run tests, run the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Setup_and_controllers]**
 - [ ] **[Controllers_specs]**
 - [ ] **[Views]**
+- [ ] **[Forms]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
