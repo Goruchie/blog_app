@@ -165,7 +165,7 @@ Feel free to check the [issues page](https://github.com/Goruchie/blog_app/issues
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project then don't forget to share this project in your connections and give ⭐ star on this project 👍
+If you like this project then don't forget to share this project in your connections and give a ⭐ star on this project 👍
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
