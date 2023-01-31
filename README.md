@@ -173,7 +173,7 @@ If you like this project then don't forget to share this project in your connect
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank @luccamicale for sharing me his knowledge.
+I would like to thank @luccamicale and @Oklukeok for sharing me his knowledge.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
