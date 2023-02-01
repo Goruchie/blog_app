@@ -9,6 +9,9 @@ RSpec.describe 'Users', type: :request do
     it "renders 'index' template" do
       expect(response).to render_template('index')
     end
+    it "not render 'show' template" do
+      expect(response).to_not render_template('show')
+    end
     it 'includes correct placeholder text' do
       expect(response.body).to include('Show users:')
     end
