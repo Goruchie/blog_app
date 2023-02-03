@@ -1,1 +1,19 @@
-<h1>Show posts for a given user:</h1>
+  <%= render "shared/add_user" %>
+  <section class='show_info'>
+    <%@user.posts.each do |post|%>
+      <%= link_to user_post_path(@user, post) do%>
+        <div class='bio'>
+          <h3>Post #<%=post.id%></h3>
+            <div class='post_container'>
+              <h3 class='post_text'><%=post.text%></h3>
+              <p class='counters'>Comments: <%=post.comments_counter_id%>, Likes: <%=post.likes_counter_id%></p>
+            </div>
+            </div>
+              <div class='comment'>
+                <%post.return_comments.each do |comment|%>
+                  <h3><%=comment.author.name%>: <%=comment.text%></h3>
+                <%end%>
+              </div>        
+      <%end%>
+    <%end%>
+</section>

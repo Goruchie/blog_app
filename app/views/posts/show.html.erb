@@ -1,1 +1,15 @@
-<h1>Here is a list of posts for a given user:</h1>
+<section>
+  <div class='post_comment'>
+    <div>
+      <h3>Post #<%=@post.id%> by <%=@post.author.name%></h3>
+      <p class='counters'>Comments: <%=@post.comments_counter_id%>, Likes: <%=@post.likes_counter_id%></p>
+    </div>
+      <h3><%=@post.text%></h3>
+      </div>
+      <div class='comment'>
+                <%@post.return_comments.each do |comment|%>
+                  <h3><%=comment.author.name%>: <%=comment.text%></h3>
+                <%end%>
+              </div>        
+  
+</section>

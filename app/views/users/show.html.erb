@@ -1,1 +1,21 @@
-<h1>Here are the list of users:</h1>
+<section class='users_section'>
+  <%= render "shared/add_user" %>
+  <div class='show_info'>
+    <div class='bio'>
+      <h3>Bio</h3>
+      <h3><%= @user.bio%></h3>
+    </div>      
+        <%@user.latest_posts.each do |post|%>
+        <div class='bio'>
+          <h3>Post #<%=post.id%></h3>
+            <div class='post_container'>
+              <h3 class='post_text'><%=post.text%></h3>
+              <p class='counters'>Comments: <%=post.comments_counter_id%>, Likes: <%=post.likes_counter_id%></p>
+            </div>
+            </div>
+       <%end%>
+            <%=link_to user_posts_path(@user) do%>
+            <button>See all posts</button>
+            <%end%>
+  <div>
+</section>
