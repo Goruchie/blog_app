@@ -1,15 +1,90 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
- * vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+* {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
+.users_section {
+  display: flex;
+  flex-direction: column;
+}
+
+.users_container {
+  margin: 0.5%;
+  display: flex;
+  align-items: center;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.u_info_contatiner {
+  border: 3px solid black;
+  margin-left: 10%;
+  width: 80%;
+}
+
+.user_info {
+  display: flex;
+  margin: 0%;
+  justify-content: space-between;
+}
+
+img {
+  border: 3px solid black;
+  width: 9rem;
+  height: 9rem;
+}
+
+.u_name {
+  font-size: 2.3rem;
+  margin-left: 10%;
+  font-weight: 600;
+}
+
+.posts_counter {
+  font-size: 1.2rem;
+  align-self: end;
+  margin-right: 10%;
+  font-weight: 100;
+}
+
+.show_info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.bio,
+.comment,
+.post_comment {
+  border: 3px solid black;
+  margin-top: 1.5%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.counters {
+  margin-top: 0%;
+  margin-left: 85%;
+}
+
+.post_text {
+  margin-bottom: 0%;
+}
+
+button {
+  margin-top: 1.5%;
+  margin-left: 45%;
+  background-color: white;
+  font-size: large;
+  padding: 0.5%;
+  padding-left: 1%;
+  padding-right: 1%;
+  box-shadow: 5px 5px;
+}
+
+.comment {
+  margin: 0%;
+  margin-bottom: 1.5%;
+}
