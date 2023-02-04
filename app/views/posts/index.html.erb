@@ -6,7 +6,7 @@
           <h3>Post #<%=post.id%></h3>
             <div class='post_container'>
               <h3 class='post_text'><%=post.text%></h3>
-              <p class='counters'>Comments: <%=post.comments_counter_id%>, Likes: <%=post.likes_counter_id%></p>
+              <p class='counters'>Comments: <%=@user.comments.count%>, Likes: <%=@user.likes.count%></p>
             </div>
             </div>
               <div class='comment'>
