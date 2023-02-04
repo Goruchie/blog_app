@@ -2,7 +2,7 @@
   <div class='post_comment'>
     <div>
       <h3>Post #<%=@post.id%> by <%=@post.author.name%></h3>
-      <p class='counters'>Comments: <%=@post.comments_counter_id%>, Likes: <%=@post.likes_counter_id%></p>
+      <p class='counters'>Comments: <%=@user.comments.count%>, Likes: <%=@user.likes.count%></p>
     </div>
       <h3><%=@post.text%></h3>
       </div>
@@ -10,6 +10,16 @@
                 <%@post.return_comments.each do |comment|%>
                   <h3><%=comment.author.name%>: <%=comment.text%></h3>
                 <%end%>
-              </div>        
+              </div>       
+                <div class='button-see-all-posts'>
+    <%=link_to new_comment_path do%>
+    <button>Create New Comment</button>
+  <%end%>
+  </div> 
+  <div class='form-create-like'>
+    <%= form_with url: user_post_likes_path(@post,@user), model: @like , method: :post ,scope: :like do |f| %>
+      <%= f.submit "Create Like" %>
+    <% end %>
+    </div>
   
 </section>
