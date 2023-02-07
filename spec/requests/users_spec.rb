@@ -13,7 +13,7 @@ RSpec.describe 'Users', type: :request do
       expect(response).to_not render_template('show')
     end
     it 'includes correct placeholder text' do
-      expect(response.body).to include('Show users:')
+      expect(response.body).to include('Number of posts:')
     end
   end
 end
