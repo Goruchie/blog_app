@@ -133,6 +133,11 @@ To run tests, run the following command:
 - Twitter: [@twitterhandle](https://twitter.com/goruchie2)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/marcosgualtero)
 
+👤 **Diego Garcia**
+
+- GitHub: [@taldr27](https://github.com/taldr27)
+- LinkedIn: [diegogarcial](https://www.linkedin.com/in/diegogarcial/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
