@@ -3,8 +3,8 @@ require 'rails_helper'
 RSpec.describe 'User show page', type: :feature do
   describe 'User show page process' do
     before(:each) do
-      @user = User.create(name: 'Diego', photo: 'https://avatars.githubusercontent.com/u/108556234?v=4', bio: 'I am a Microverse student',
-                          posts_counter: 2)
+      @user = User.create(name: 'Diego', photo: 'https://avatars.githubusercontent.com/u/108556234?v=4',
+                          bio: 'I am a Microverse student', posts_counter: 2)
       Post.create(author: @user, title: 'My first post', text: 'This is my first post')
       Post.create(author: @user, title: 'My second post', text: 'This is my second post')
       Post.create(author: @user, title: 'My third post', text: 'This is my third post')
@@ -39,12 +39,10 @@ RSpec.describe 'User show page', type: :feature do
     end
 
     it 'displays the last 3 posts' do
-        visit user_path(@user)
-        expect(page).to have_content('This is my second post')
-        expect(page).to have_content('This is my third post')
-        expect(page).to have_content('This is my fourth post')
-       
-      end
-
+      visit user_path(@user)
+      expect(page).to have_content('This is my second post')
+      expect(page).to have_content('This is my third post')
+      expect(page).to have_content('This is my fourth post')
+    end
   end
 end

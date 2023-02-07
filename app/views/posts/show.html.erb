@@ -1,7 +1,7 @@
 <section>
   <div class='post_comment'>
     <div>
-      <h3>Post #<%=@post.id%> by <%=@post.author.name%></h3>
+      <h3>Post #<%=@post.id%> <%=@post.title%> by <%=@post.author.name%></h3>
       <p class='counters'>Comments: <%=@user.comments.count%>, Likes: <%=@user.likes.count%></p>
     </div>
       <h3><%=@post.text%></h3>
