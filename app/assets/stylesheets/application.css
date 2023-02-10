@@ -74,8 +74,6 @@ img {
 }
 
 button {
-  margin-top: 1.5%;
-  margin-left: 45%;
   background-color: white;
   font-size: large;
   padding: 0.5%;
@@ -87,4 +85,75 @@ button {
 .comment {
   margin: 0%;
   margin-bottom: 1.5%;
+}
+
+.login {
+  text-decoration: none;
+  border: 3px solid black;
+}
+
+.sign-up {
+  width: 35%;
+  text-decoration: none;
+  border: 3px solid black;
+}
+
+.log-in-box {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.field1 {
+  width: 100%;
+}
+
+input {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: black;
+  margin: 2%;
+  border: 3px solid black;
+}
+
+.form-btn {
+  background-color: white;
+  width: 100%;
+}
+
+.remember {
+  display: flex;
+  color: black;
+  width: 100%;
+}
+
+.new_user {
+  color: black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#user_email {
+  width: 100%;
+}
+
+.actions,
+.actions1 {
+  width: 100%;
+}
+
+.actions1 input {
+  width: 100%;
+}
+
+#user_bio {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: black;
+  margin: 2%;
+  border: 3px solid black;
 }
